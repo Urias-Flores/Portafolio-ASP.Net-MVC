@@ -1,0 +1,18 @@
+﻿@model HomeIndexDTO
+
+@{
+    ViewData["Title"] = "Mi portafolio";
+}
+
+<partial name="_Presentacion"/>
+
+<partial name="_Habilidades" />
+
+<partial name="_SeccionProyectos" model="Model.Proyects" />
+
+<div class="container">
+    <a class="btn btn-primary" asp-controller="Home" asp-action="Proyects" style="margin-top:2rem">Ver todos los proyectos</a>
+</div>
+
+
+

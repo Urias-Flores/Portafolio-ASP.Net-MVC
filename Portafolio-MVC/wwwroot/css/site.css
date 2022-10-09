@@ -1,0 +1,76 @@
+:root {
+    --blue: #036dff;
+    --gray: #aaa;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.foto {
+    width: 200px;
+    margin: 2rem 0;
+    border-radius: 50%;
+}
+
+.seccion-bienvenida {
+    margin: 0 0 100px 0;
+}
+
+.seccion-bienvenida h1 {
+    margin: 3rem 0 3rem 0;
+    color: white;
+}
+
+.seccion-bienvenida p {
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.section-experience {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: -70px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px
+}
+
+.habilities {
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+    background-color: white;
+    text-align: center;
+}
+
+.habilities ul{
+    list-style: none;
+    padding: 0;
+}
+
+.habilities .icons {
+    color: #0D6EFD;
+    font-size: 40px;
+}
